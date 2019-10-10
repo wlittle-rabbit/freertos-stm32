@@ -24,7 +24,9 @@
 #define __MAIN_H
 
 #include "stm32f10x.h"
-
-
-
+extern void RCC_Configuration_t(void);
+extern void init_usart1(int rate);
+extern void uartsend_string(char *p,int n);
+extern void msleep(int num);
+extern void uartsend_number(unsigned long n);
 #endif

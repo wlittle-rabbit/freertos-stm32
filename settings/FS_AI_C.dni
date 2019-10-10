@@ -21,7 +21,7 @@ ActionState=1
 Enabled=0
 ShowSource=1
 [DebugChecksum]
-Checksum=2104489426
+Checksum=1211184067
 [Exceptions]
 StopOnUncaught=_ 0
 StopOnThrow=_ 0
@@ -114,6 +114,10 @@ ShowTimeLog=1
 SumEnabled=0
 ShowTimeSum=1
 SumSortOrder=0
+[Disassemble mode]
+mode=0
+[Breakpoints2]
+Count=0
 [Log file]
 LoggingEnabled=_ 0
 LogFile=_ ""
@@ -121,6 +125,11 @@ Category=_ 0
 [TermIOLog]
 LoggingEnabled=_ 0
 LogFile=_ ""
+[Aliases]
+A0=_ "C:\Users\saic\Desktop\10-20\AI_test0831\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c" ""
+A1=_ "C:\Users\saic\Desktop\10-20\AI_test0831\User\main.c" ""
+Count=2
+SuppressDialog=1
 [CallStackLog]
 Enabled=0
 [CallStackStripe]
@@ -129,12 +138,3 @@ ShowTiming=1
 Frequency=10000
 Probe0=I0
 ProbeSetup0=2 1 1 2 0 0
-[Disassemble mode]
-mode=0
-[Breakpoints2]
-Count=0
-[Aliases]
-A0=_ "C:\Users\saic\Desktop\10-20\AI_test0831\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c" ""
-A1=_ "C:\Users\saic\Desktop\10-20\AI_test0831\User\main.c" ""
-Count=2
-SuppressDialog=1
